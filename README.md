@@ -1,4 +1,15 @@
-# Carom — starter project
+# Carom
+
+Carom is a fast top-down paddle duel. Curve the ball with paddle movement, use
+the amber center rails for bank shots, and outlast your opponent in solo or local
+versus play.
+
+Install dependencies with `npm ci`, then start development with `npm run dev`.
+Create a static production build with `npm run build`; it is written to `dist/`.
+
+Controls: Player one uses **W/S** and player two uses **Up/Down**. In solo,
+either set controls the left paddle. Enter or Space confirms menu items, Escape
+or P pauses, and M toggles sound.
 
 This repository is the starting point for building **Carom**, the game the
 specification under `specs/` describes. Read `specs/overview.md` first; it says
